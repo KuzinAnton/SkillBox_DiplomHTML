@@ -260,6 +260,86 @@ header {
 	background-color: rgb(49, 41, 60);
 }
 
+#footer {
+	padding: 85px 0 100px 0;
+}
+
+#footer-part-left {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14pt;
+	color: rgb(137, 147, 173);
+}
+
+#footer-part-left ul li {
+	margin-bottom: 20px;
+	list-style-type: none;
+}
+
+#footer-part-center ul li {
+	list-style-type: none;
+}
+
+#footer-part-center ul li i {
+	margin-right: 20px;
+}
+
+#footer-part-center {
+	margin: 0 200px 0 200px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18pt;
+}
+
+#footer-part-right ul li {
+	margin-right: 20px;
+	margin-bottom: 40px;
+	list-style-type: none;
+}
+
+.icons_sprite {
+  background-image: url('../img/sprite.jpg');
+  background-repeat: no-repeat;
+  height: 41px;
+  width: 43px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#icon_facebook { 
+	background-position: left bottom; 
+}
+
+#icon_facebook:hover { 
+	background-position: left top; 
+}
+
+#icon_vk { 
+	background-position: -160px bottom; 
+}
+
+#icon_vk:hover { 
+	background-position: -160px top; 
+}
+
+#icon_twitter { 
+	background-position: -53px bottom; 
+}
+
+#icon_twitter:hover { 
+	background-position: -53px top; 
+}
+
+#icon_instagram { 
+	background-position: right bottom; 
+}
+
+#icon_instagram:hover { 
+	background-position: right top; 
+}
+
 @media (max-width: 1560px) {
 	header {
 		background-size: 50% auto;
