@@ -185,6 +185,66 @@ header {
 	background-color: rgb(251, 251, 251);
 }
 
+#flyteg_1 {
+	display: inline-block;
+	transform: translate(152px, 169px) rotate(30deg);
+	transition: 2s;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	background: linear-gradient(135deg, #ff2f96 80%, #ff8f5a 20%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0B2349;
+}
+
+#flyteg_2 {
+	display: inline-block;
+	transform: translate(820px, 182px) rotate(-20deg);
+	transition: 2s;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	background: linear-gradient(45deg, #ff8f5a 20%, #ff2f96 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0B2349;
+}
+
+#flyteg_3 {
+	display: inline-block;
+	transform: translate(293px, 396px) rotate(20deg);
+	transition: 2s;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	background: linear-gradient(45deg, #ff8f5a 20%, #ff2f96 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0B2349;
+}
+
+#flyteg_4 {
+	display: inline-block;
+	transform: translate(997px, 562px) rotate(20deg);
+	transition: 2s;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	background: linear-gradient(45deg, #ff8f5a 20%, #ff2f96 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0B2349;
+}
+
+#flyteg_5 {
+	display: inline-block;
+	transform: translate(403px, 691px) rotate(-20deg);
+	transition: 2s;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	background: linear-gradient(45deg, #ff8f5a 20%, #ff2f96 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0B2349;
+}
+
 #about-f_i {
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
@@ -233,6 +293,46 @@ header {
 	background: linear-gradient(to top right, #ff8f5a, #ff2f96);
 	color: white;
 	flex-grow: 1;
+}
+
+#flyteg_6 {
+	display: inline-block;
+	transform: translate(147px, 90px) rotate(20deg);
+	transition: 2s;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+
+#flyteg_7 {
+	display: inline-block;
+	transform: translate(1200px, 90px) rotate(-20deg);
+	transition: 2s;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+
+#flyteg_8 {
+	display: inline-block;
+	transform: translate(1290px, 380px) rotate(-20deg);
+	transition: 2s;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+
+#flyteg_9 {
+	display: inline-block;
+	transform: translate(162px, 380px) rotate(20deg);
+	transition: 2s;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+
+#flyteg_10 {
+	display: inline-block;
+	transform: translate(1100px, 400px) rotate(20deg);
+	transition: 2s;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
 }
 
 .main-text-block {
@@ -294,50 +394,59 @@ header {
 }
 
 #footer-part-right ul li {
-	margin-right: 20px;
 	margin-bottom: 40px;
 	list-style-type: none;
 }
 
+#links {
+	display: flex;
+    justify-content: space-between;
+}
+
 .icons_sprite {
-  background-image: url('../img/sprite.jpg');
-  background-repeat: no-repeat;
-  height: 41px;
-  width: 43px;
-  display: inline-block;
-  margin-right: 10px;
+	background-image: url('../img/sprite.jpg');
+	background-repeat: no-repeat;
+	display: inline-block;
 }
 
 #icon_facebook { 
-	background-position: left bottom; 
+	background-position: -65px top;
+	width: 16px;
+	height: 28px;
 }
 
 #icon_facebook:hover { 
-	background-position: left top; 
+	background-position: -65px bottom; 
 }
 
 #icon_vk { 
-	background-position: -160px bottom; 
+	background-position: left top;
+	width: 35px;
+	height: 28px; 		
 }
 
 #icon_vk:hover { 
-	background-position: -160px top; 
+	background-position: left bottom;
 }
 
 #icon_twitter { 
-	background-position: -53px bottom; 
+	background-position: -112px top;
+	width: 28px;
+	height: 28px; 
 }
 
 #icon_twitter:hover { 
-	background-position: -53px top; 
+	background-position: -112px bottom; 
 }
 
 #icon_instagram { 
-	background-position: right bottom; 
+	background-position: right top;
+	width: 25px;
+	height: 28px; 
 }
 
 #icon_instagram:hover { 
-	background-position: right top; 
+	background-position: right bottom; 
 }
 
 @media (max-width: 1560px) {
